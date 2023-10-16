@@ -8,23 +8,30 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap" rel="stylesheet">
     <style>
+        html {
+            height: 100%;
+            width: 100%;
+            overflow-y: hidden;
+        }
         body{
             font-family: 'Inter', sans-serif;
             height: 100%;
+            background-image: linear-gradient(red, white, red);
+            background-repeat: no-repeat;
         }
     </style>
 </head>
 <body>
     <main>
-        <h1>Recipe for The Odin Project</h1>
+        <h1 id="title">Recipe for The Odin Project</h1>
         <img src="IMAGES/fate-shirou.gif" alt="Shirou is Cooking" height="300">
-            <div>
-               <p>
+            <div class="paragraph">
+               <p id="s1">
                   <a href="recipe.html">Recipe for a delicious Omelette!</a>
                 </p>
-                <p>Learn how to cook a good-looking and delicious Omelette for your basic needs!
+                <p id="s2">Learn how to cook a good-looking and delicious Omelette for your basic needs!
                 </p> 
-                <p>
+                <p id="s3">
                     It's easy to cook and great for a breakfast lunch.
                 </p>
             </div>
